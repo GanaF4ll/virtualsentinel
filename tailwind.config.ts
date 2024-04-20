@@ -21,10 +21,13 @@ module.exports = {
         },
         orange: {
           50: "#FF814C",
+          primary: "#DB8B34",
         },
         blue: {
           70: "#021639",
+          primary: "#193762",
         },
+
         yellow: {
           50: "#FEC601",
         },
