@@ -13,7 +13,7 @@ const Download = () => {
           <div>
             <Button
               type="button"
-              title="Télécharger l'appli"
+              title="Play Store"
               icon="/android.svg"
               variant="btn_white"
               full
