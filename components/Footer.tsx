@@ -22,4 +22,12 @@ const Footer = () => {
   );
 };
 
+const FooterColumn = ({ title, children }: FooterColumnProps) => {
+  return (
+    <div>
+      <h4>{title}</h4>
+    </div>
+  );
+};
+
 export default Footer;
