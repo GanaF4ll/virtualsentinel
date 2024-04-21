@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Image from "next/image";
 
 const Download = () => {
   return (
@@ -10,7 +11,7 @@ const Download = () => {
             Télécharger l'appli !
           </h2>
           <p className="regular-16 text-gray-10">Disponible sur Android</p>
-          <div>
+          <div className="flex w-full flex-col gap-3 whitesspace-nowrap xl:flex-row">
             <Button
               type="button"
               title="Play Store"
@@ -19,6 +20,9 @@ const Download = () => {
               full
             />
           </div>
+        </div>
+        <div className="flex flex-1 items-center justify-end">
+          <Image src="/phonemock.png" alt="phones" width={550} height={870} />
         </div>
       </div>
     </section>
