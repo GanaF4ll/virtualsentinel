@@ -45,7 +45,12 @@ export const SOCIALS = [
     title: "Instagram",
     size: 24,
   },
-  { link: "/", icon: "/facebook.svg", title: "Facebook", size: 24 },
+  {
+    link: "https://www.facebook.com/profile.php?id=61559238923955",
+    icon: "/facebook.svg",
+    title: "Facebook",
+    size: 24,
+  },
   {
     link: "https://www.linkedin.com/in/virtual-sentinel/",
     icon: "/linkedin.svg",
