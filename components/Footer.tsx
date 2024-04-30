@@ -30,15 +30,19 @@ const Footer = () => {
             ))}
 
             <div className="flex flex-col gap-5">
-              {SOCIALS.map((network) => (
-                <a target="_blank" href={network.link}>
-                  <Image
-                    src={network.icon}
-                    alt={network.title}
-                    width={network.size}
-                    height={network.size}
-                  />
-                </a>
+              {SOCIALS.map((network, index) => (
+                <FooterColumn title="Suivez-nous !" key={index}>
+                  <ul className="regular-14 flex flex-col gap-4 text-white">
+                    <a href={network.link} key={network.link} target="_blank">
+                      <Image
+                        src={network.icon}
+                        alt={network.title}
+                        width={network.size}
+                        height={network.size}
+                      />
+                    </a>
+                  </ul>
+                </FooterColumn>
               ))}
             </div>
           </div>
