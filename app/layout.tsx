@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
+import { lato } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Virtual Sentinel",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>
+      <body className={lato.className}>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
       </body>

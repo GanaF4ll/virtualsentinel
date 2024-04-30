@@ -1,7 +1,7 @@
 import { Montserrat, MuseoModerno, Lato } from "next/font/google";
 
 // titre
-export const inter = Montserrat({
+export const montSerrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
 });

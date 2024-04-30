@@ -1,21 +1,27 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
+import { museoModerno, montSerrat } from "../app/fonts";
 
 const Download = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
-        <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
+        <div className="z-20 flex w-full flex-1 flex-col items-start  gap-12 border-2 border-teal-500">
+          <h2
+            className="neon-title"
+            // className={`${museoModerno.className} bold-40 lg:bold-64 xl:max-w-[320px]`}
+          >
+            {" "}
             Protégeons aujourd'hui pour un avenir sûr
           </h2>
+
           <p>
             La france a enregisté plus de{" "}
             <strong className="text-green-primary">67000 cyberattaques</strong>{" "}
             en 2020, soit une augmentation de{" "}
             <strong className="text-green-primary">300%</strong> par rapport à
-            l'année précédente
+            l'année précédente.
           </p>
           <div className="flex w-1/2 flex-col gap-3 whitesspace-nowrap xl:flex-row">
             <Button
