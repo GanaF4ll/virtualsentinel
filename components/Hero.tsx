@@ -27,21 +27,7 @@ const Hero = () => {
           aprentissages. De plus, notre cabinet de conseil offre une gamme de
           services adaptés aux entreprises et aux particuliers.
         </p>
-        <div className="my-11 flex flex-wrap gap-5">
-          <div className="flex items-center gap-2">
-            {Array(5)
-              .fill(1)
-              .map((_, index) => (
-                <Image
-                  src="/LogoLock.png"
-                  key={index}
-                  alt="star"
-                  width={24}
-                  height={24}
-                />
-              ))}
-          </div>
-        </div>
+        <div className="my-11 flex flex-wrap gap-5"></div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button
             type="button"
@@ -56,13 +42,18 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start  border-2 border-pink-300">
+      <div className="relative flex flex-1 items-center justify-center border-2 border-pink-300">
         <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8  border-2 border-blue-300">
           <div className="flex flex-col border-2 border-green-300">
-            <div className="flexBetween  ">
-              <p className="regular-16 text-gray-20">Image</p>
-              <Image src="/close.svg" alt="close" width={24} height={24} />
-            </div>
+            {/* <div className="flexBetween  "> */}
+            <p className="regular-16 text-gray-20">Image</p>
+            <Image
+              src="/peopleWorking.png"
+              alt="close"
+              width={500}
+              height={500}
+            />
+            {/* </div> */}
           </div>
         </div>
       </div>
