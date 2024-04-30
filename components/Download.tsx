@@ -8,15 +8,21 @@ const Download = () => {
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
-            Télécharger l'appli !
+            Protégeons aujourd'hui pour un avenir sûr
           </h2>
-          <p className="regular-16 text-gray-10">Disponible sur Android</p>
-          <div className="flex w-full flex-col gap-3 whitesspace-nowrap xl:flex-row">
+          <p>
+            La france a enregisté plus de{" "}
+            <strong className="text-green-primary">67000 cyberattaques</strong>{" "}
+            en 2020, soit une augmentation de{" "}
+            <strong className="text-green-primary">300%</strong> par rapport à
+            l'année précédente
+          </p>
+          <div className="flex w-1/2 flex-col gap-3 whitesspace-nowrap xl:flex-row">
             <Button
               type="button"
-              title="Play Store"
+              title="Télécharger Virtual Sentinel"
               icon="/android.svg"
-              variant="btn_white_text"
+              variant="btn_green_primary"
               full
             />
           </div>

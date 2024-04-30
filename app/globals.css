@@ -33,6 +33,9 @@ body {
   .btn_dark_green_outline {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
   }
+  .btn_green_primary {
+    @apply bg-green-primary px-8 py-4 text-black transition-all hover:bg-white hover:text-green-primary;
+  }
 
   .max-container {
     @apply mx-auto max-w-[1440px];
@@ -144,7 +147,7 @@ body {
 
   /* Get App */
   .get-app {
-    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-blue-primary bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
