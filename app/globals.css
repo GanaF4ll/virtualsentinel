@@ -19,7 +19,7 @@ body {
     @apply border-white bg-white px-8 py-3 text-green-50;
   }
   .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
+    @apply border-white bg-white px-8 py-3 text-green-50 transition-all hover:bg-green-primary hover:text-gray-90;
   }
   .btn_green {
     @apply border-green-50 bg-green-50 px-8 py-5 text-white;
@@ -28,7 +28,7 @@ body {
     @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black;
   }
   .btn_blue_primary {
-    @apply bg-blue-primary px-8 py-4 text-white transition-all hover:bg-orange-primary;
+    @apply bg-blue-primary px-8 py-4 text-white transition-all hover:bg-orange-primary hover:text-black;
   }
   .btn_dark_green_outline {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white;

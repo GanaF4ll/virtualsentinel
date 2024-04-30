@@ -16,7 +16,7 @@ const Download = () => {
               type="button"
               title="Play Store"
               icon="/android.svg"
-              variant="btn_white"
+              variant="btn_white_text"
               full
             />
           </div>

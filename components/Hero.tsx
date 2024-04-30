@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="max-container paddding-container bg-blue-100 flex flex-col gap-20 py-10 pb-32 md:gap-28 LG:py-20 xl:flex-row">
       <div className="hero-map" />
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="relative z-20 flex  flex-col xl:w-1/2 border-2 border-red-800">
         <Image
           src="/LogoLock.png"
           alt="camp"
@@ -43,19 +43,7 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 items-center justify-center border-2 border-pink-300">
-        <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8  border-2 border-blue-300">
-          <div className="flex flex-col border-2 border-green-300">
-            {/* <div className="flexBetween  "> */}
-            <p className="regular-16 text-gray-20">Image</p>
-            <Image
-              src="/peopleWorking.png"
-              alt="close"
-              width={500}
-              height={500}
-            />
-            {/* </div> */}
-          </div>
-        </div>
+        <Image src="/peopleWorking.png" alt="close" width={500} height={500} />
       </div>
     </section>
   );
