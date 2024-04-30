@@ -56,7 +56,7 @@ const Hero = () => {
         <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8  border-2 border-blue-300">
           <div className="flex flex-col border-2 border-green-300">
             <div className="flexBetween  ">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">Image</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
           </div>

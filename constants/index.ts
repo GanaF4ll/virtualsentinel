@@ -10,11 +10,46 @@ export const NAV_LINKS = [
 export const FOOTER_LINKS = [
   {
     title: "Plus d'infos",
-    links: ["A propos de nous", "Nous contacter", "FAQ"],
+    links: [
+      "A propos",
+      "Nos formations",
+      "Nos services",
+      "Actualités",
+      "Blog Cybersécurité",
+      "Nous contacter",
+      "FAQ",
+    ],
+  },
+  {
+    title: "Communauté",
+    links: ["Experts", "Partenaires", "Forum"],
+  },
+  {
+    title: "Conditions",
+    links: [
+      "Politique de confidentialité",
+      "Paramètres des cookies",
+      "Déclaration d'accessibilité",
+    ],
+  },
+  {
+    title: "Contactez-nous",
+    links: ["Devenir formateur", "Devenir partenaire"],
   },
 ];
 
-export const SOCIALS = {
-  title: "Réseaux sociaux",
-  links: ["/facebook.svg", "/instagram.svg", "/linkedin.svg"],
-};
+export const SOCIALS = [
+  {
+    link: "https://www.instagram.com/virtual.sentinel/",
+    icon: "/instagram.svg",
+    title: "Instagram",
+    size: 24,
+  },
+  { link: "/", icon: "/facebook.svg", title: "Facebook", size: 24 },
+  {
+    link: "https://www.linkedin.com/in/virtual-sentinel/",
+    icon: "/linkedin.svg",
+    title: "LinkedIn",
+    size: 24,
+  },
+];
