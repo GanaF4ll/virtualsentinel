@@ -36,16 +36,17 @@ const Footer = () => {
           </FooterColumn>
         </div>
 
-        <div className="flex border-t-2 border-white items-center justify-between p-2 m-2 ">
+        <div className="flex border-t-2 border-white items-center justify-between text-white mt-5">
           <Link href="/" className="mb-10">
             <Image
               src="/logoTitreWhite.svg"
               alt="logo"
-              width={150}
-              height={50}
+              width={300}
+              height={200}
+              className="pl-4"
             />
           </Link>
-          <p>2024 Virtual Sentinel. All right reserved.</p>
+          <p className="mr-10">2024 Virtual Sentinel. All right reserved.</p>
         </div>
       </div>
     </footer>
