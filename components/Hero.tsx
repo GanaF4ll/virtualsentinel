@@ -18,10 +18,14 @@ const Hero = () => {
           Virtual Sentinel
         </h1>
         <p className="regular-16 mt-6 text-blue-primary xl:max-w-[520px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          accusamus facilis temporibus, porro ipsam inventore quisquam. Dicta
-          rerum asperiores quaerat numquam, alias, cumque eum totam corporis
-          necessitatibus velit, quae non?
+          Chez Virtual Sentinel, notre mission va bien au-delà de simplement
+          prévenir les cyberattaques ; nous aspirons à apporter un changement
+          positif dans notre société, sur notre planète et dans notre quotidien.
+          À travers notre plateforme, nous proposons les dernières actualités et
+          informations du monde cybernétique, favorisant ainsi une communauté de
+          professionnels qualifiés prêts à partager leur expertise et
+          aprentissages. De plus, notre cabinet de conseil offre une gamme de
+          services adaptés aux entreprises et aux particuliers.
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
