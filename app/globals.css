@@ -30,7 +30,7 @@
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
   }
   .btn_green_primary {
-    @apply bg-green-primary px-8 py-4 text-black transition-all hover:bg-white hover:text-green-primary;
+    @apply bg-green-primary px-8 py-4 text-black transition-all hover:bg-orange-primary hover:text-blue-primary;
   }
 
   .max-container {

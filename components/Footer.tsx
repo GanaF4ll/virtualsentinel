@@ -46,7 +46,7 @@ const Footer = () => {
               className="pl-4"
             />
           </Link>
-          <p className="mr-10">2024 Virtual Sentinel. All right reserved.</p>
+          <p className="mr-10">2024 Virtual Sentinel. All rights reserved.</p>
         </div>
       </div>
     </footer>
