@@ -18,7 +18,6 @@ const Download = () => {
             <strong className="text-green-primary">300%</strong> par rapport à
             l'année précédente.
           </p>
-          {/* Ancien bouton affiché uniquement sur les grands écrans */}
           <div className="hidden md:flex w-1/2 justify-end mt-6">
             <Button
               type="button"
@@ -29,18 +28,17 @@ const Download = () => {
             />
           </div>
         </div>
-        <div className="flex flex-1 items-center justify-end md:order-none order-2">
+        <div className="flex flex-col flex-1 items-center justify-end md:order-none order-2">
           <Image src="/phone.png" alt="phones" width={550} height={870} />
-        </div>
-        {/* Nouveau bouton affiché uniquement sur les petits écrans */}
-        <div className="flex w-full md:hidden justify-center mt-6">
-          <Button
-            type="button"
-            title="Télécharger Virtual Sentinel"
-            icon="/android.svg"
-            variant="btn_green_primary"
-            full
-          />
+          <div className="flex w-full md:hidden justify-center mt-6">
+            <Button
+              type="button"
+              title="Télécharger Virtual Sentinel"
+              icon="/android.svg"
+              variant="btn_green_primary"
+              full
+            />
+          </div>
         </div>
       </div>
     </section>
