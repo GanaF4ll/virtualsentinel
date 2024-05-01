@@ -11,6 +11,7 @@ module.exports = {
         green: {
           50: "#30AF5B",
           90: "#292C27",
+          primary: "#A3EDBF",
         },
         gray: {
           10: "#EEEEEE",
@@ -36,8 +37,8 @@ module.exports = {
         "bg-img-1": "url('/img-1.png')",
         "bg-img-2": "url('/img-2.png')",
         "feature-bg": "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        "pattern-2": "url('/pattern-bg.png')",
+        pattern: "url('/pattern.svg')",
+        "pattern-2": "var(--pattern-bg)",
       },
       screens: {
         xs: "400px",
@@ -49,6 +50,7 @@ module.exports = {
       },
       borderRadius: {
         "5xl": "40px",
+        mock: "10px",
       },
     },
   },
