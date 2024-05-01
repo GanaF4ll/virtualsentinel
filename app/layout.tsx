@@ -17,7 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={lato.className}>
+      <body className={`${lato.className} bg-blue-primary`}>
+        {/* <body className={lato.className}> */}
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
       </body>
