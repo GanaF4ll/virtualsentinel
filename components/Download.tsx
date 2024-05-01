@@ -28,9 +28,17 @@ const Download = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col flex-1 items-center justify-end md:order-none order-2">
-          <Image src="/phone.png" alt="phones" width={550} height={870} />
-          <div className="flex w-3/4 md:hidden justify-center mt-6">
+        <div className="flex flex-col flex-1 items-center justify-center md:order-none order-2">
+          <div className="w-full h-[870px] md:h-auto md:w-3/4">
+            <Image
+              src="/phone.png"
+              alt="phones"
+              layout="responsive"
+              width={550}
+              height={870}
+            />
+          </div>
+          <div className="flex w-full md:hidden justify-center mt-6">
             <Button
               type="button"
               title="Télécharger Virtual Sentinel"
