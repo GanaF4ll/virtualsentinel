@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "accueil", label: "Accueil" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "tarifs ", label: "Tarifs " },
-  { href: "/", key: "contact", label: "Contact" },
+  { href: "/services", key: "services", label: "Services" },
+  { href: "/tarifs", key: "tarifs", label: "Tarifs" },
+  { href: "/contact", key: "contact", label: "Contact" },
 ];
 
 // FOOTER
@@ -14,16 +14,16 @@ export const FOOTER_LINKS = [
       "A propos",
       "Nos formations",
       "Nos services",
-      "Actualités",
-      "Blog Cybersécurité",
-      "Nous contacter",
-      "FAQ",
+      // "Actualités",
+      // "Blog Cybersécurité",
+      // "Nous contacter",
+      // "FAQ",
     ],
   },
-  {
-    title: "Communauté",
-    links: ["Experts", "Partenaires", "Forum"],
-  },
+  // {
+  //   title: "Communauté",
+  //   links: ["Experts", "Partenaires", "Forum"],
+  // },
   {
     title: "Conditions",
     links: [
@@ -32,10 +32,10 @@ export const FOOTER_LINKS = [
       "Déclaration d'accessibilité",
     ],
   },
-  {
-    title: "Contactez-nous",
-    links: ["Devenir formateur", "Devenir partenaire"],
-  },
+  // {
+  //   title: "Contactez-nous",
+  //   links: ["Devenir formateur", "Devenir partenaire"],
+  // },
 ];
 
 export const SOCIALS = [
@@ -56,5 +56,26 @@ export const SOCIALS = [
     icon: "/linkedin.svg",
     title: "LinkedIn",
     size: 24,
+  },
+];
+
+export const ReviewMocks = [
+  {
+    name: "Neo Anderson",
+    photo: "/usergreen.svg",
+    rating: 4,
+    comment: "Incroyable produit! Je le recommande vivement.",
+  },
+  {
+    name: "Gojo Satoru",
+    photo: "/userorange.svg",
+    rating: 5,
+    comment: "C'est un excellent produit! Je le recommande vivement.",
+  },
+  {
+    name: "Travis Scott",
+    photo: "/userblue.svg",
+    rating: 5,
+    comment: "J'approuve ce produit! Je le recommande vivement.",
   },
 ];

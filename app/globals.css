@@ -34,7 +34,7 @@
   }
 
   .max-container {
-    @apply mx-auto max-w-[1440px];
+    /* @apply mx-auto max-w-[1440px]; */
   }
 
   .padding-container {
@@ -145,21 +145,8 @@
   .get-app {
     @apply max-container relative w-full justify-between gap-32 overflow-hidden
     bg-pattern bg-cover bg-center bg-no-repeat
-    bg-blue-primary pattern px-6 py-12 text-white md:flex-row 
-    sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
-  }
-
-  /* Add these classes */
-  .get-app .content {
-    @apply order-1 md:order-none;
-  }
-
-  .get-app .image {
-    @apply order-2 md:order-1;
-  }
-
-  .get-app .button {
-    @apply order-3 md:order-2;
+     bg-blue-primary pattern px-6 py-12 text-white sm:flex-row 
+     sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[700px];
   }
 }
 

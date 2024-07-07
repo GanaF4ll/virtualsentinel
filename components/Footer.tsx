@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24 bg-blue-primary">
+    <footer className="flexCenter bg-blue-950">
       <div className="flex flex-col w-full">
         <div className="flex flex-wrap gap-10 sm:justify-around md:flex-1">
           {FOOTER_LINKS.map((columns) => (
@@ -22,7 +22,7 @@ const Footer = () => {
 
           <FooterColumn title="Suivez-nous !" key="index">
             {SOCIALS.map((network, index) => (
-              <ul className="regular-14 flex flex-col gap-4 text-white">
+              <ul className="regular-14 flex flex-col text-white">
                 <a href={network.link} key={network.link} target="_blank">
                   <Image
                     src={network.icon}
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div className="flex border-t-2 border-white items-center justify-between text-white mt-5">
-          <Link href="/" className="mb-10">
+          <Link href="/" className="">
             <Image
               src="/logoTitreWhite.svg"
               alt="logo"
