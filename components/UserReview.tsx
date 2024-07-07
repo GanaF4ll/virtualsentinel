@@ -1,16 +1,25 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
-const UserReview = ({ user }) => {
+export interface UserReviewProps {
+  name: string;
+  photo: string;
+  rating: number;
+  comment: string;
+}
+
+interface Props {
+  user: UserReviewProps;
+}
+
+const UserReview: React.FC<Props> = ({ user }) => {
   const { name, photo, rating, comment } = user;
 
-  const renderStars = (rating) => {
+  const renderStars = (rating: number) => {
     const stars = [];
     for (let i = 0; i < rating; i++) {
       stars.push(
-        <Image key={i} src={"/star.svg"} alt={"star"} width={24} height={24} />
+        <Image key={i} src="/star.svg" alt="star" width={24} height={24} />
       );
     }
     return stars;
@@ -18,7 +27,7 @@ const UserReview = ({ user }) => {
 
   return (
     <div
-      className="flex flex-col items-center justify-between w-[250px] h-[300px] p-6 rounded-lg shadow-lg max-w-md "
+      className="flex flex-col items-center justify-between w-[250px] h-[300px] p-6 rounded-lg shadow-lg max-w-md"
       style={{
         backgroundImage: "linear-gradient(to bottom right, #DB8B34, #193762)",
       }}
