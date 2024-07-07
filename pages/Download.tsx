@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../components/Button";
 import Image from "next/image";
 import { museoModerno, montSerrat } from "../app/fonts";
-import UserReview from "./UserReview";
+import UserReview from "../components/UserReview";
 import { ReviewMocks } from "@/constants";
 
 const Download = () => {

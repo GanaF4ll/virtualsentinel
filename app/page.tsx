@@ -1,10 +1,11 @@
-import Download from "@/components/Download";
+import Download from "@/pages/Download";
 import Contact from "@/pages/Contact";
 
 export default function Home() {
   return (
     <>
       <Download />
+      {/* <Contact /> */}
     </>
   );
 }

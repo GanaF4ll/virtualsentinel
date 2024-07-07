@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
 import Sidebar from "./Sidebar";
+import Contact from "@/pages/Contact";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
             key={link.key}
             className="regular-16 text-white flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hover:text-green-primary"
           >
-            {link.label}
+            {link.label}²
           </Link>
         ))}
       </ul>
