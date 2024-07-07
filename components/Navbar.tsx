@@ -3,10 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
 import Sidebar from "./Sidebar";
+import Contact from "@/pages/Contact";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container relative bg-blue-950 z-30 py-5">
       <Link href="/">
         <Image src="/logoWhite.png" alt="Logo" width={100} height={50} />
       </Link>
