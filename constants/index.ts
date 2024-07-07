@@ -14,16 +14,16 @@ export const FOOTER_LINKS = [
       "A propos",
       "Nos formations",
       "Nos services",
-      "Actualités",
-      "Blog Cybersécurité",
-      "Nous contacter",
-      "FAQ",
+      // "Actualités",
+      // "Blog Cybersécurité",
+      // "Nous contacter",
+      // "FAQ",
     ],
   },
-  {
-    title: "Communauté",
-    links: ["Experts", "Partenaires", "Forum"],
-  },
+  // {
+  //   title: "Communauté",
+  //   links: ["Experts", "Partenaires", "Forum"],
+  // },
   {
     title: "Conditions",
     links: [
@@ -32,10 +32,10 @@ export const FOOTER_LINKS = [
       "Déclaration d'accessibilité",
     ],
   },
-  {
-    title: "Contactez-nous",
-    links: ["Devenir formateur", "Devenir partenaire"],
-  },
+  // {
+  //   title: "Contactez-nous",
+  //   links: ["Devenir formateur", "Devenir partenaire"],
+  // },
 ];
 
 export const SOCIALS = [
@@ -61,19 +61,19 @@ export const SOCIALS = [
 
 export const ReviewMocks = [
   {
-    name: "John Doe",
+    name: "Neo Anderson",
     photo: "/usergreen.svg",
     rating: 4,
     comment: "Incroyable produit! Je le recommande vivement.",
   },
   {
-    name: "Jane Doe",
+    name: "Gojo Satoru",
     photo: "/userorange.svg",
     rating: 5,
     comment: "C'est un excellent produit! Je le recommande vivement.",
   },
   {
-    name: "James Doe",
+    name: "Travis Scott",
     photo: "/userblue.svg",
     rating: 5,
     comment: "J'approuve ce produit! Je le recommande vivement.",
