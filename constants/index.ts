@@ -58,3 +58,24 @@ export const SOCIALS = [
     size: 24,
   },
 ];
+
+export const ReviewMocks = [
+  {
+    name: "John Doe",
+    photo: "/usergreen.svg",
+    rating: 4,
+    comment: "Incroyable produit! Je le recommande vivement.",
+  },
+  {
+    name: "Jane Doe",
+    photo: "/userorange.svg",
+    rating: 5,
+    comment: "C'est un excellent produit! Je le recommande vivement.",
+  },
+  {
+    name: "James Doe",
+    photo: "/userblue.svg",
+    rating: 5,
+    comment: "J'approuve ce produit! Je le recommande vivement.",
+  },
+];
