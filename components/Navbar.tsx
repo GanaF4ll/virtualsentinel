@@ -7,7 +7,7 @@ import Contact from "@/pages/Contact";
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container relative bg-blue-950 z-30 py-5">
       <Link href="/">
         <Image src="/logoWhite.png" alt="Logo" width={100} height={50} />
       </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
             key={link.key}
             className="regular-16 text-white flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold hover:text-green-primary"
           >
-            {link.label}²
+            {link.label}
           </Link>
         ))}
       </ul>
