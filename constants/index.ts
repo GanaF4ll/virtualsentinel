@@ -32,10 +32,6 @@ export const FOOTER_LINKS = [
       "Déclaration d'accessibilité",
     ],
   },
-  // {
-  //   title: "Contactez-nous",
-  //   links: ["Devenir formateur", "Devenir partenaire"],
-  // },
 ];
 
 export const SOCIALS = [
