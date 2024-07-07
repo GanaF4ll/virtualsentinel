@@ -9,7 +9,7 @@ const Download = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
-        <div className="z-20 flex w-full flex-1 flex-col items-start border">
+        <div className="z-20 flex w-full flex-1 flex-col items-start">
           <h2
             // className={`${montSerrat.className} neon-title`}
             className="neon-title"
@@ -18,14 +18,14 @@ const Download = () => {
             Protégeons aujourd'hui pour un avenir sûr
           </h2>
 
-          <p>
+          <p className="pb-2">
             La france a enregisté plus de{" "}
             <strong className="text-green-primary">67000 cyberattaques</strong>{" "}
             en 2020, soit une augmentation de{" "}
             <strong className="text-green-primary">300%</strong> par rapport à
             l'année précédente.
           </p>
-          <div className="flex flex-col gap-3 whitesspace-nowrap xl:flex-row border px-2">
+          <div className="flex flex-col gap-3 whitesspace-nowrap xl:flex-row px-2">
             {ReviewMocks.map((review) => {
               return <UserReview user={review} />;
             })}

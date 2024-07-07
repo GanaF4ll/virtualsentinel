@@ -14,16 +14,16 @@ export const FOOTER_LINKS = [
       "A propos",
       "Nos formations",
       "Nos services",
-      "Actualités",
-      "Blog Cybersécurité",
-      "Nous contacter",
-      "FAQ",
+      // "Actualités",
+      // "Blog Cybersécurité",
+      // "Nous contacter",
+      // "FAQ",
     ],
   },
-  {
-    title: "Communauté",
-    links: ["Experts", "Partenaires", "Forum"],
-  },
+  // {
+  //   title: "Communauté",
+  //   links: ["Experts", "Partenaires", "Forum"],
+  // },
   {
     title: "Conditions",
     links: [
@@ -32,10 +32,10 @@ export const FOOTER_LINKS = [
       "Déclaration d'accessibilité",
     ],
   },
-  {
-    title: "Contactez-nous",
-    links: ["Devenir formateur", "Devenir partenaire"],
-  },
+  // {
+  //   title: "Contactez-nous",
+  //   links: ["Devenir formateur", "Devenir partenaire"],
+  // },
 ];
 
 export const SOCIALS = [
