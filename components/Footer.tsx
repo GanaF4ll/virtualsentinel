@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter bg-blue-primary">
+    <footer className="flexCenter  bg-blue-950">
       <div className="flex flex-col w-full">
         <div className="flex flex-wrap  sm:justify-around md:flex-1">
           {FOOTER_LINKS.map((columns) => (
